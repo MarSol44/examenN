@@ -1,0 +1,148 @@
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/*HEADER*/
+.logo{
+    width: 30px;
+    height:30px;
+
+}
+
+
+.header-contenedor{
+    display:flex;
+    background-color: #00439c;
+    text-align: center;
+    align-items: center;
+}
+
+.header-contenedor ul{
+    display:flex;
+    color: white;
+    gap: 20px;
+}
+
+
+.header-contenedor ul li{
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.boton-header{
+    background-color:#2a7ce6;
+    color:white;
+    border-radius: 24px;
+    border-color: transparent;
+    height: 25px;
+    
+}
+
+.boton-principal{
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    
+}
+
+
+/*MAIN*/
+.main-contenedor{
+    margin-top: 0;
+    
+}
+
+
+
+
+/*El banner principal se adecúa al ancho de la pantalla, pero se mantiene la proporción.*/
+.imagen-principal{
+    background-image: url('img/banner_principal.jpeg');
+    min-height: 90vh;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0;
+
+
+  
+ 
+}
+
+
+
+
+
+.texto-principal{
+    margin-left: 70px;
+    color:white;
+    padding-top: 120px;
+    margin-top: 0;
+}
+
+.texto1{
+    font-size: 20px;
+}
+
+.texto2{
+    font-size: 60px;
+}
+.texto3{
+    font-size: 50px;
+}
+.texto4{
+    margin-top: 15px;
+    font-size: 35px;
+}
+.texto5{
+    margin-top: 15px;
+    width: 500px;
+}
+.boton-medio{
+    background-color: white;
+    color:#00439c;
+    height: 25px;
+    text-align: center;
+    border-radius: 24px;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+
+
+
+
+/*SEGUNDA PARTE*/
+
+.imagenes-varias{
+    display:flex;
+    justify-content: center;
+    
+}
+.imagenes-varias ul {
+    display:flex;
+    width: 150px;
+    height:150px;
+    gap:5px;
+    justify-content: center;
+
+}
+.imagenes-varias ul li {
+    list-style: none;
+    width: 300px;
+    height:200px;
+}
+
+.imagenes-varias ul li img {
+    width: 180px;
+    height:100px;
+    border-radius: 5%;
+}
